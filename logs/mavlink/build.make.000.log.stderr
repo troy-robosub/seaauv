@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/home/robosub/catkin_ws/src/mavlink/pymavlink/tools/mavgen.py", line 16, in <module>
+    from pymavlink.generator import mavgen
+  File "/home/robosub/catkin_ws/src/mavlink/pymavlink/generator/mavgen.py", line 26, in <module>
+    from future import standard_library
+ImportError: No module named future
+make[2]: *** [paparazzi-v2.0-cxx-stamp] Error 1
+make[1]: *** [CMakeFiles/paparazzi.xml-v2.0.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+Traceback (most recent call last):
+  File "/home/robosub/catkin_ws/src/mavlink/pymavlink/tools/mavgen.py", line 16, in <module>
+    from pymavlink.generator import mavgen
+  File "/home/robosub/catkin_ws/src/mavlink/pymavlink/generator/mavgen.py", line 26, in <module>
+    from future import standard_library
+ImportError: No module named future
+make[2]: *** [matrixpilot-v2.0-cxx-stamp] Error 1
+make[1]: *** [CMakeFiles/matrixpilot.xml-v2.0.dir/all] Error 2
+Traceback (most recent call last):
+  File "/home/robosub/catkin_ws/src/mavlink/pymavlink/tools/mavgen.py", line 16, in <module>
+    from pymavlink.generator import mavgen
+  File "/home/robosub/catkin_ws/src/mavlink/pymavlink/generator/mavgen.py", line 26, in <module>
+    from future import standard_library
+ImportError: No module named future
+make[2]: *** [icarous-v2.0-cxx-stamp] Error 1
+make[1]: *** [CMakeFiles/icarous.xml-v2.0.dir/all] Error 2
+make: *** [all] Error 2

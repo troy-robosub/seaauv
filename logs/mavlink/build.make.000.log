@@ -1,0 +1,39 @@
+[35m[1mScanning dependencies of target paparazzi.xml-v2.0[0m
+[35m[1mScanning dependencies of target icarous.xml-v2.0[0m
+[35m[1mScanning dependencies of target matrixpilot.xml-v2.0[0m
+[  4%] [34m[1mGenerating paparazzi-v2.0-cxx-stamp[0m
+[  9%] [34m[1mGenerating matrixpilot-v2.0-cxx-stamp[0m
+[ 13%] [34m[1mGenerating icarous-v2.0-cxx-stamp[0m
+Traceback (most recent call last):
+  File "/home/robosub/catkin_ws/src/mavlink/pymavlink/tools/mavgen.py", line 16, in <module>
+    from pymavlink.generator import mavgen
+  File "/home/robosub/catkin_ws/src/mavlink/pymavlink/generator/mavgen.py", line 26, in <module>
+    from future import standard_library
+ImportError: No module named future
+CMakeFiles/paparazzi.xml-v2.0.dir/build.make:62: recipe for target 'paparazzi-v2.0-cxx-stamp' failed
+make[2]: *** [paparazzi-v2.0-cxx-stamp] Error 1
+make[1]: *** [CMakeFiles/paparazzi.xml-v2.0.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/paparazzi.xml-v2.0.dir/all' failed
+Traceback (most recent call last):
+  File "/home/robosub/catkin_ws/src/mavlink/pymavlink/tools/mavgen.py", line 16, in <module>
+    from pymavlink.generator import mavgen
+  File "/home/robosub/catkin_ws/src/mavlink/pymavlink/generator/mavgen.py", line 26, in <module>
+    from future import standard_library
+ImportError: No module named future
+CMakeFiles/matrixpilot.xml-v2.0.dir/build.make:62: recipe for target 'matrixpilot-v2.0-cxx-stamp' failed
+make[2]: *** [matrixpilot-v2.0-cxx-stamp] Error 1
+CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/matrixpilot.xml-v2.0.dir/all' failed
+make[1]: *** [CMakeFiles/matrixpilot.xml-v2.0.dir/all] Error 2
+Traceback (most recent call last):
+  File "/home/robosub/catkin_ws/src/mavlink/pymavlink/tools/mavgen.py", line 16, in <module>
+    from pymavlink.generator import mavgen
+  File "/home/robosub/catkin_ws/src/mavlink/pymavlink/generator/mavgen.py", line 26, in <module>
+    from future import standard_library
+ImportError: No module named future
+CMakeFiles/icarous.xml-v2.0.dir/build.make:62: recipe for target 'icarous-v2.0-cxx-stamp' failed
+CMakeFiles/Makefile2:141: recipe for target 'CMakeFiles/icarous.xml-v2.0.dir/all' failed
+make[2]: *** [icarous-v2.0-cxx-stamp] Error 1
+make[1]: *** [CMakeFiles/icarous.xml-v2.0.dir/all] Error 2
+Makefile:117: recipe for target 'all' failed
+make: *** [all] Error 2
